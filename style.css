@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+    background-image: url("/img/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+header h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.header-text{
+    width: 50%;
+}
+.header-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.header-img{
+    width: 50%;
+    padding-left: 10%;
+    padding-bottom: 4px;
+}
+.header-img img{
+    width: 80%;
+}
