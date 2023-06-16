@@ -3,7 +3,8 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-header{
+
+header {
     display: flex;
     background-image: url("/img/header_bg.png");
     background-repeat: no-repeat;
@@ -11,16 +12,20 @@ header{
     padding-left: 50px;
     padding-right: 50px;
 }
-header h1{
+
+header h1 {
     font-size: 50px;
 }
-.orange-color{
+
+.orange-color {
     color: orange;
 }
-.header-text{
+
+.header-text {
     width: 50%;
 }
-.header-text a{
+
+.header-text a {
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -29,11 +34,46 @@ header h1{
     padding: 10px 30px;
     border-radius: 5px;
 }
-.header-img{
+
+.header-img {
     width: 50%;
     padding-left: 10%;
     padding-bottom: 4px;
 }
-.header-img img{
+
+.header-img img {
     width: 80%;
+}
+
+.flexible-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.experiences-area{
+    margin: 80px 0;
+}
+.experiences-title{
+    text-align: center;
+
+}
+
+.experienc-continer {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 20px 30px gray;
+    border-radius: 5px;
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(26, 255, 0), rgb(166, 206, 46)) 10;
+}
+
+.border-left {
+    border-left: 8px solid ;
+    border-image: linear-gradient(rgb(0, 255, 157), rgb(23, 119, 155)) 30;
+}
+footer p{
+    text-align: center;
+    
 }
